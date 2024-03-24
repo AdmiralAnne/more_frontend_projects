@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+    background-color: lightcyan;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: sans-serif;
+    background-color: rgb(31, 31, 31);
+}
+
+.card p {
+    background-color: rgb(31, 31, 31);
+}
+
+.card {
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 4px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+/* scroll bar*/
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(77, 148, 255);
+    border-radius: 9px;
+}
